@@ -59,9 +59,7 @@ body {
     justify-content: space-around;
 }
 
-.info-little {
-   
-}
+.info-little {}
 
 .little-h {
     color: #272727;
@@ -83,4 +81,63 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.featured-images {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* justify-content: last baseline; */
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.image-3 {
+    width: 500px;
+    height: 590px;
+    /* flex-shrink: 0; */
+}
+
+.image-2 {
+    width: 550px;
+    height: 590px;
+    /* flex-shrink: 0; */
+}
+
+.image-1 {
+    width: 550px;
+    height: 590px;
+    /* flex-shrink: 0; */
+}
+
+.littleone-information {
+    width: 1920px;
+    height: 4867px;
+    background: #FFF;
+}
+
+.Rectangle-1 {
+    width: 570px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 400px 400px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    border: 300px 300px;
+}
+.Rectangle-2 {
+    width: 570px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 400px 400px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    border: 300px 300px;
+}
+.Rectangle-3 {
+    width: 570px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 400px 400px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    border: 300px 300px;
 }
