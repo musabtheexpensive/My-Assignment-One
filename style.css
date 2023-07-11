@@ -32,7 +32,7 @@ body {
     flex-shrink: 0;
     color: var(--dark-03, #757575);
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -97,23 +97,23 @@ body {
 .image-3 {
     width: 500px;
     height: 590px;
-   
+
 }
 
 .image-2 {
     width: 550px;
     height: 590px;
-    
+
 }
 
 .image-1 {
     width: 550px;
     height: 590px;
-   
+
 }
 
 .littleone-information {
-  
+
     background: #FFF;
 }
 
@@ -165,10 +165,14 @@ body {
 
 /* Fourth section style start here */
 .growing {
+    
     padding: 130px;
     border-radius: 10px;
-   
+    background-image: url("./Flower Asset/flower growing.jpg");
     margin: 130px 0;
+    width: 2000px;
+    height: 500px;
+    margin-left: 230px;
 }
 
 .growing-style {
@@ -181,7 +185,7 @@ body {
 .growing-p {
     color: #757575;
     text-align: center;
-    font-size: 28px;
+    font-size: 48px;
 }
 
 .growing-image {
@@ -189,14 +193,14 @@ body {
     justify-content: center;
 }
 
-.image-grow {
-    width: 2000px;
-}
+.image-grow {}
+
 /* sixth section start here */
-.littleone-inform{
+.littleone-inform {
     background: #FFF;
 }
-.featured-imagestwo{
+
+.featured-imagestwo {
     display: flex;
     /* text-align: center; */
     justify-content: space-between;
@@ -206,34 +210,40 @@ body {
     margin-left: 220px;
     margin-right: 220px;
 }
+
 /*  seventh section start here  */
-.exam{
+.exam {
     position: relative;
-  text-align: center;
+    text-align: center;
 }
-.centered{
+
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.contact{
+
+.contact {
     display: flex;
     align-items: center;
     padding: 80px 200px;
 }
-.contact input[type="text"],.contact input[type="email"]{
+
+.contact input[type="text"],
+.contact input[type="email"] {
     text-align: left;
     height: 50px;
     width: 400px;
     font-size: 30px;
 }
+
 /* eighth section here */
-.section-footer{
-    
+.section-footer {
+
     padding: 20px;
     justify-content: space-around;
     align-items: center;
     background-color: black;
-   
+
 }
