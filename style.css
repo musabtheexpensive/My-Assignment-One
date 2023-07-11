@@ -195,11 +195,26 @@ body {
 }
 
 /*  seventh section start here  */
-
-.excess-im{
-    /* display: flex; */
+.exam{
+    position: relative;
+  text-align: center;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact{
+    display: flex;
     align-items: center;
-    margin-right: 100px;
+    padding: 80px 200px;
+}
+.contact input[type="text"],.contact input[type="email"]{
+    text-align: left;
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
 }
 /* eighth section here */
 .section-footer{
@@ -207,6 +222,6 @@ body {
     padding: 20px;
     justify-content: space-around;
     align-items: center;
-    background-image: url("./background1.jpg");
-    color: black;
+    background-color: black;
+   
 }
