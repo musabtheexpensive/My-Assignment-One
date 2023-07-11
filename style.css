@@ -2,25 +2,29 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 .header {
     background-color: #FFF8F3;
     background-repeat: no-repeat;
 }
+
 .banner {
     padding: 100px 40px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .btn-primary {
     border-radius: 5px;
-    background: #ec3304e7;
+    background: #ee0d3eea;
     border: 0;
     font-size: 20px;
     color: white;
     font-weight: 700;
     padding: 15px 35px;
 }
+
 .short {
     display: flex;
     width: 585px;
@@ -33,12 +37,50 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+
 .banner .profile {
     width: 500px;
 }
+
 .banner-title {
     font-size: 70px;
     font-weight: 650px;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+/* main first section start here */
+.little-information {
+    padding: 100px;
+    border-radius: 10px;
+    /* background: #FFF8F3; */
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-little {
+   
+}
+
+.little-h {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.little-p {
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
