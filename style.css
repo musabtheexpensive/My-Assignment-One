@@ -97,24 +97,23 @@ body {
 .image-3 {
     width: 500px;
     height: 590px;
-    /* flex-shrink: 0; */
+   
 }
 
 .image-2 {
     width: 550px;
     height: 590px;
-    /* flex-shrink: 0; */
+    
 }
 
 .image-1 {
     width: 550px;
     height: 590px;
-    /* flex-shrink: 0; */
+   
 }
 
 .littleone-information {
-    /* width: 20px;
-    height: 47px; */
+  
     background: #FFF;
 }
 
@@ -168,7 +167,7 @@ body {
 .growing {
     padding: 130px;
     border-radius: 10px;
-    /* background: #FFF8F3; */
+   
     margin: 130px 0;
 }
 
@@ -218,7 +217,7 @@ body {
 }
 /* eighth section here */
 .section-footer{
-    /* display: flex; */
+    
     padding: 20px;
     justify-content: space-around;
     align-items: center;
