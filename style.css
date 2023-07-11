@@ -93,6 +93,27 @@ body {
     margin-left: 280px;
     margin-right: 280px;
 }
+.my-name{
+    display: flex;
+    justify-content: space-around;
+}
+.inamei h3{
+    /* width: 20px; */
+    margin-left: 150px;
+    font-size: 30px;
+}
+.iinamei h4{
+    /* width: 20px; */
+    /* margin-right: 60px; */
+    margin-left: 50px;
+    font-size: 30px;
+    align-items: center;
+}
+.musab h5{
+    /* width: 20px; */
+    margin-right: 150px;
+    font-size: 30px;
+}
 
 .image-3 {
     width: 500px;
