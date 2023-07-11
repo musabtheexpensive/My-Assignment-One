@@ -90,8 +90,8 @@ body {
     justify-content: space-between;
     /* justify-content: center; */
     /* justify-content: last baseline; */
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .image-3 {
@@ -192,7 +192,20 @@ body {
 .image-grow {
     width: 2000px;
 }
-
+/* sixth section start here */
+.littleone-inform{
+    background: #FFF;
+}
+.featured-imagestwo{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* justify-content: last baseline; */
+    margin-left: 220px;
+    margin-right: 220px;
+}
 /*  seventh section start here  */
 .exam{
     position: relative;
