@@ -65,7 +65,7 @@ body {
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -77,11 +77,12 @@ body {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
-    font-size: 28px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
+
 /* secound section style  start here */
 .featured-images {
     display: flex;
@@ -125,6 +126,7 @@ body {
     background: rgba(167, 33, 98, 0.15);
     border: 300px 300px;
 }
+
 .Rectangle-2 {
     width: 570px;
     height: 600px;
@@ -133,6 +135,7 @@ body {
     background: rgba(5, 151, 160, 0.15);
     border: 300px 300px;
 }
+
 .Rectangle-3 {
     width: 570px;
     height: 600px;
@@ -141,44 +144,65 @@ body {
     background: rgba(71, 125, 17, 0.15);
     border: 300px 300px;
 }
+
 /* third section style  start here */
-.secound-info{
+.secound-info {
     background-color: #FFF8F3;
     background-repeat: no-repeat;
     margin: 0px;
 }
-.sign-up{
+
+.sign-up {
     text-align: center;
     margin-top: 50px;
 }
-.p-style{
+
+.p-style {
     text-align: center;
     margin-top: 50px;
     margin-right: 100px;
     margin-left: 230px;
 }
+
 /* Fourth section style start here */
-.growing{
+.growing {
     padding: 130px;
     border-radius: 10px;
     /* background: #FFF8F3; */
     margin: 130px 0;
 }
-.growing-style{
+
+.growing-style {
     color: #181818;
     text-align: center;
     font-size: 65px;
     font-style: normal;
 }
-.growing-p{
+
+.growing-p {
     color: #757575;
     text-align: center;
     font-size: 28px;
 }
-.growing-image{
+
+.growing-image {
     display: flex;
     justify-content: center;
 }
-.image-grow{
+
+.image-grow {
     width: 2000px;
+}
+
+/*  seventh section start here  */
+
+
+/* eighth section here */
+.section-footer{
+    /* display: flex; */
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./background1.jpg");
+    color: black;
 }
